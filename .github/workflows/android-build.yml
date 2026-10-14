@@ -3,7 +3,7 @@ name: Android APK
 on:
   workflow_dispatch:
   push:
-    branches: ["feat/**"]
+    branches: ["**"]
 
 permissions:
   contents: write
